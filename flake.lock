@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1708296515,
+        "narHash": "sha256-FyF489fYNAUy7b6dkYV6rGPyzp+4tThhr80KNAaF/yY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "b98a4e1746acceb92c509bc496ef3d0e5ad8d4aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "os161-deb": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-o43wCFCAGx2z4bm4fh8oIFbkBCGM+Pm8FTSD1FcIyr8=",
+        "type": "file",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/os161-utils_2.0.8-4.deb"
+      },
+      "original": {
+        "type": "file",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/os161-utils_2.0.8-4.deb"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "os161-deb": "os161-deb"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
