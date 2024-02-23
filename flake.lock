@@ -16,22 +16,65 @@
         "type": "github"
       }
     },
-    "os161-deb": {
+    "os161-binutils-src": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-o43wCFCAGx2z4bm4fh8oIFbkBCGM+Pm8FTSD1FcIyr8=",
-        "type": "file",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/os161-utils_2.0.8-4.deb"
+        "lastModified": 1412126106,
+        "narHash": "sha256-sPskjubDFXH7Hjcxnuf3kvdjTbwPAvYL7sKQqo6stmg=",
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24%2Bos161-2.1.tar.gz"
       },
       "original": {
-        "type": "file",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/os161-utils_2.0.8-4.deb"
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24%2Bos161-2.1.tar.gz"
+      }
+    },
+    "os161-gcc-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1412127722,
+        "narHash": "sha256-ec1EBFtTGnNuY6jg6jg8GExFq7yxgJxPRLZzqT4P1y0=",
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3%2Bos161-2.1.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3%2Bos161-2.1.tar.gz"
+      }
+    },
+    "os161-gdb-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1412128972,
+        "narHash": "sha256-w2tXm8zBo3KGyDg8xFEJl6XQo/IO65wwnLxKLBdsabs=",
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8%2Bos161-2.1.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8%2Bos161-2.1.tar.gz"
+      }
+    },
+    "os161-sys161-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1456881132,
+        "narHash": "sha256-0HXBLSzy86wWQ7sPh2JJaEJqC63zVrwo9Ekmq833PD8=",
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/sys161-2.0.8.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/sys161-2.0.8.tar.gz"
       }
     },
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "os161-deb": "os161-deb"
+        "os161-binutils-src": "os161-binutils-src",
+        "os161-gcc-src": "os161-gcc-src",
+        "os161-gdb-src": "os161-gdb-src",
+        "os161-sys161-src": "os161-sys161-src"
       }
     }
   },
