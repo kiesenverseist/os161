@@ -12,6 +12,24 @@
         "url": "https://git.savannah.gnu.org/cgit/config.git/plain/config.guess?id=20403c5701973a4cbd7e0b4bbeb627fcd424a0f1"
       }
     },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1705309234,
+        "narHash": "sha256-uNRRNRKmJyCRC/8y1RqBkqWBLM034y4qN7EprSdmgyA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "1ef2e671c3b0c19053962c07dbda38332dcebf26",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1708296515,
@@ -83,11 +101,27 @@
     "root": {
       "inputs": {
         "config-guess": "config-guess",
+        "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "os161-binutils-src": "os161-binutils-src",
         "os161-gcc-src": "os161-gcc-src",
         "os161-gdb-src": "os161-gdb-src",
         "os161-sys161-src": "os161-sys161-src"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
       }
     }
   },
