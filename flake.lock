@@ -1,5 +1,17 @@
 {
   "nodes": {
+    "config-guess": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-AfuEzx0+2bZxiyDNHvwkcQOzTp7jpD+9P7A/ZKPkYa0=",
+        "type": "file",
+        "url": "https://git.savannah.gnu.org/cgit/config.git/plain/config.guess?id=20403c5701973a4cbd7e0b4bbeb627fcd424a0f1"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://git.savannah.gnu.org/cgit/config.git/plain/config.guess?id=20403c5701973a4cbd7e0b4bbeb627fcd424a0f1"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1708296515,
@@ -70,6 +82,7 @@
     },
     "root": {
       "inputs": {
+        "config-guess": "config-guess",
         "nixpkgs": "nixpkgs",
         "os161-binutils-src": "os161-binutils-src",
         "os161-gcc-src": "os161-gcc-src",
