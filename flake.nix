@@ -20,6 +20,10 @@
       url = "http://www.cse.unsw.edu.au/~cs3231/os161-files/sys161-2.0.8.tar.gz";
       flake = false;
     };
+    config-guess = {
+      url = "https://git.savannah.gnu.org/cgit/config.git/plain/config.guess?id=20403c5701973a4cbd7e0b4bbeb627fcd424a0f1";
+      flake = false;
+    };
   };
 
   outputs = { self, ...}@inputs:
@@ -70,11 +74,15 @@
         configurePhase = ''
           mkdir buildgcc
           cd buildgcc # dont cd out of it, so later phases execute here too
+          cp ${inputs.config-guess} config.guess
+          chmod u+x config.guess
           ../configure \
             --enable-languages=c,lto \
             --nfp --disable-shared --disable-threads \
             --disable-libmudflap --disable-libssp \
             --disable-libstdcxx --disable-nls \
+            --with-as=${self-pkgs.os161-binutils}/bin/os161-as \
+            --with-ld=${self-pkgs.os161-binutils}/bin/os161-ld \
             --target=mips-harvard-os161 \
             --prefix=$out
         '';
@@ -85,7 +93,7 @@
         inherit system enableParallelBuilding installPhase updateAutotoolsGnuConfigScriptsPhase;
         src = inputs.os161-gdb-src;
 
-        buildInputs = [self-pkgs.os161-binutils pkgs.ncurses5];
+        buildInputs = [self-pkgs.os161-binutils pkgs.ncurses];
 
         CFLAGS="--std=gnu89";
 
