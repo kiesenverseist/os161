@@ -9,26 +9,31 @@
       url =
         "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24+os161-2.1.tar.gz";
       flake = false;
+      type = "tarball";
     };
     os161-gcc-src = {
       url =
         "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3+os161-2.1.tar.gz";
       flake = false;
+      type = "tarball";
     };
     os161-gdb-src = {
       url =
         "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8+os161-2.1.tar.gz";
       flake = false;
+      type = "tarball";
     };
     os161-sys161-src = {
       url =
         "http://www.cse.unsw.edu.au/~cs3231/os161-files/sys161-2.0.8.tar.gz";
       flake = false;
+      type = "tarball";
     };
     config-guess = {
       url =
         "https://git.savannah.gnu.org/cgit/config.git/plain/config.guess?id=20403c5701973a4cbd7e0b4bbeb627fcd424a0f1";
       flake = false;
+      type = "file";
     };
   };
 

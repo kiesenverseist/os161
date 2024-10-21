@@ -52,11 +52,11 @@
         "lastModified": 1412126106,
         "narHash": "sha256-sPskjubDFXH7Hjcxnuf3kvdjTbwPAvYL7sKQqo6stmg=",
         "type": "tarball",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24%2Bos161-2.1.tar.gz"
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24+os161-2.1.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24%2Bos161-2.1.tar.gz"
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/binutils-2.24+os161-2.1.tar.gz"
       }
     },
     "os161-gcc-src": {
@@ -65,11 +65,11 @@
         "lastModified": 1412127722,
         "narHash": "sha256-ec1EBFtTGnNuY6jg6jg8GExFq7yxgJxPRLZzqT4P1y0=",
         "type": "tarball",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3%2Bos161-2.1.tar.gz"
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3+os161-2.1.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3%2Bos161-2.1.tar.gz"
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gcc-4.8.3+os161-2.1.tar.gz"
       }
     },
     "os161-gdb-src": {
@@ -78,11 +78,11 @@
         "lastModified": 1412128972,
         "narHash": "sha256-w2tXm8zBo3KGyDg8xFEJl6XQo/IO65wwnLxKLBdsabs=",
         "type": "tarball",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8%2Bos161-2.1.tar.gz"
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8+os161-2.1.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8%2Bos161-2.1.tar.gz"
+        "url": "http://www.cse.unsw.edu.au/~cs3231/os161-files/gdb-7.8+os161-2.1.tar.gz"
       }
     },
     "os161-sys161-src": {
